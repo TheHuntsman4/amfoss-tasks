@@ -1,1 +1,0 @@
-star all amFoss repositories
