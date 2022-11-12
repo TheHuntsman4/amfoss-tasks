@@ -14,7 +14,7 @@ def csvExport(data):
     #     csvwriter = csv.writer(csvfile) 
     #     csvwriter.wta[0]}.csv"
     filename = "movie.csv"
-    print(filename)
+
     with open(filename, 'w') as csvfile:
         csvwriter = csv.writer(csvfile) 
         csvwriter.writerow(data)
