@@ -23,8 +23,8 @@ def getmovie(name):
     movieName=name.strip("/movie ")
     urlData=requests.get(f"http://www.omdbapi.com/?t={movieName}&apikey=73b94f94")
     urlData=urlData.json()
-    title,year,rating=urlData["Title"],urlData["Year"],urlData["imdbRating"]
-    output=f'Title:{title}\nYear:{year}\nimDbRating:{rating}'
+    title,year,rating,photo=urlData["Title"],urlData["Year"],urlData["imdbRating"],urlData["Poster"]
+    output=f'{photo}\nTitle:{title}\nYear:{year}\nimDbRating:{rating}'
     csvExport([title,year,rating])
     return output
 
