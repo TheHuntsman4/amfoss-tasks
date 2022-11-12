@@ -25,7 +25,7 @@ used to add a file to the repo
 ##4.git commit 
 commits the changes and new additions to the repo and makes a log
 ##5.git push
-finally pushes the changes to the remote repository
+finally pushes the changes to the remote repository.
 
 
 ![SECRET SCROLL](Screenshot from 2022-11-12 15-59-22.png)
