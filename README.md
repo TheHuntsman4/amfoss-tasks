@@ -7,7 +7,7 @@
 [Task-03]()|Programming|
 [Task-04](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-04)|CineBot|Completed
 [Task-05]()|Find The Bug|
-[Task-06]()Flame Game|
+[Task-06]()|Flame Game|
 [Task-07]()|Go WASM|
 [Task-08](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-08)|Internet Explorer|Completed
 [Task-09]()Krypto Scrapper|
