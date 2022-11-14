@@ -17,7 +17,4 @@
 [Task-13]()|Footfall Counter|
 [Task-14]()|Bnadit|
 [Task-15]()|Project Euler|
-<<<<<<< HEAD
 
-=======
->>>>>>> 704c8ac15debc9add29ec09d7ff09911e2aa89d8

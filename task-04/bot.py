@@ -21,7 +21,7 @@ def csvExport(data):
 
 def getmovie(name):
     movieName=name.strip("/movie ")
-    urlData=requests.get(f"http://www.omdbapi.com/?t={movieName}&apikey=73b94f94")
+    urlData=requests.get(f"http://www.omdbapi.com/?t={movieName}&apikey={key}")
     urlData=urlData.json()
     title,year,rating,photo=urlData["Title"],urlData["Year"],urlData["imdbRating"],urlData["Poster"]
     output=f'{photo}\nTitle:{title}\nYear:{year}\nimDbRating:{rating}'
