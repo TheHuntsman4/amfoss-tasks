@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jleKmc3ECZUK/1fkHYXSlVwBm5KRP+44SoNPUpw6KShuqPQuNraE4o8moNMBdZ7bSX7vHcu+yYasjZCBHogMcQ==",
+  "success": true,
+  "projectFilePath": "/home/aniketh/Desktop/tasks-main/task-05/Client/Client.csproj",
+  "expectedPackageFiles": [
+    "/home/aniketh/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
