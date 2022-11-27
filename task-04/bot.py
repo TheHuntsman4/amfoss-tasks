@@ -25,9 +25,7 @@ def getmovie(name):
     urlData=urlData.json()
     title,year,rating,photo=urlData["Title"],urlData["Year"],urlData["imdbRating"],urlData["Poster"]
     output=f'{photo}\nTitle:{title}\nYear:{year}\nimDbRating:{rating}'
-    getPoster(photo)
-    poster=open("poster.png","rb")
-    bot.send_photo(message.chat.id,poster,output)
+    bot.reply_to(message.chat.id,output)
     csvExport([title,year,rating])
     return output
 

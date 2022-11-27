@@ -1,0 +1,25 @@
+bandit0---->
+bandit0
+bandit 0-1--->used cat
+NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+bandit 1-2---> use ./
+rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+bandit 2-3 ---> use \ for spaces
+aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+bandit3-4----> use ls -a
+2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+bandit4-5--->guessed the file (-file07) couldve used file ./inhere/* to get the file type 
+lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+bandit5-6--->find ./ -type f -size 1033c
+P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+bandir6-7--> use find/ -user bandit7 -group bandit6 size 33c ---->permission denied --->used 2>/dev/null ---> got a directory conaining the password , cat'ed the password
+z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+bandit7-8---> used the grep command--> grep "millionth" ./data.txt
+TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+bandit8-9----> sort data.txt|unniq -u
+EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+bandit9-10--> strings data.txt| grep -E "=+" 
+G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+bandit10-11---> used cat to get the encoded text, then used base64 -d to decode the text
+6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+
