@@ -15,6 +15,6 @@
 [Task-11]()|Figma Ninja|
 [Task-12]()|Bunny Heist|
 [Task-13]()|Footfall Counter|
-[Task-14]()|Bnadit|
+[Task-14](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-14)|Bnadit|Completed
 [Task-15]()|Project Euler|
 
