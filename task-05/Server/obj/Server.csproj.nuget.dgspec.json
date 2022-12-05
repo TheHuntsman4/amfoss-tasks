@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/aniketh/Desktop/tasks-main/task-05/Server/Server.csproj": {}
+    "/home/aniketh/Desktop/amfoss-tasks/task-05/Server/Server.csproj": {}
   },
   "projects": {
-    "/home/aniketh/Desktop/tasks-main/task-05/Server/Server.csproj": {
+    "/home/aniketh/Desktop/amfoss-tasks/task-05/Server/Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/aniketh/Desktop/tasks-main/task-05/Server/Server.csproj",
+        "projectUniqueName": "/home/aniketh/Desktop/amfoss-tasks/task-05/Server/Server.csproj",
         "projectName": "Server",
-        "projectPath": "/home/aniketh/Desktop/tasks-main/task-05/Server/Server.csproj",
+        "projectPath": "/home/aniketh/Desktop/amfoss-tasks/task-05/Server/Server.csproj",
         "packagesPath": "/home/aniketh/.nuget/packages/",
-        "outputPath": "/home/aniketh/Desktop/tasks-main/task-05/Server/obj/",
+        "outputPath": "/home/aniketh/Desktop/amfoss-tasks/task-05/Server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/aniketh/.nuget/NuGet/NuGet.Config"

@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/aniketh/Desktop/tasks-main/task-05/Client/Client.csproj",
+      "projectUniqueName": "/home/aniketh/Desktop/amfoss-tasks/task-05/Client/Client.csproj",
       "projectName": "Client",
-      "projectPath": "/home/aniketh/Desktop/tasks-main/task-05/Client/Client.csproj",
+      "projectPath": "/home/aniketh/Desktop/amfoss-tasks/task-05/Client/Client.csproj",
       "packagesPath": "/home/aniketh/.nuget/packages/",
-      "outputPath": "/home/aniketh/Desktop/tasks-main/task-05/Client/obj/",
+      "outputPath": "/home/aniketh/Desktop/amfoss-tasks/task-05/Client/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/aniketh/.nuget/NuGet/NuGet.Config"
