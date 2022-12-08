@@ -14,7 +14,7 @@ def csvExport(data):
     #     csvwriter = csv.writer(csvfile) 
     #     csvwriter.wta[0]}.csv"
     filename = "movie.csv"
-
+    print(filename)
     with open(filename, 'w') as csvfile:
         csvwriter = csv.writer(csvfile) 
         csvwriter.writerow(data)
@@ -25,7 +25,6 @@ def getmovie(name):
     urlData=urlData.json()
     title,year,rating,photo=urlData["Title"],urlData["Year"],urlData["imdbRating"],urlData["Poster"]
     output=f'{photo}\nTitle:{title}\nYear:{year}\nimDbRating:{rating}'
-    # bot.send_message(message.chat.id,output)
     csvExport([title,year,rating])
     return output
 
