@@ -1,0 +1,2 @@
+# :robot:CineBot:robot:
+Another fun task. Took me 3 days to complete and it was very fun  to do. I've always heard about bots which automates tasks like these.Twitter bots amazon bots and so many more, so I was ver excited to work on  one. It did have ts hard parts especially getting all the data into a csv file.It took me a while but I got it in the end.The environment  variables were also hassle.

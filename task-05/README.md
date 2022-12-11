@@ -1,2 +1,3 @@
-# Find the bug 🕵️
-Was a very cool task to do got stuck at the last part of the task,but eventually figured it out. 
+# 🕵️Find the bug 🕵️
+Was a very cool task to do . Again i have herd about this client server thing for a while from school and friends.Although  not as difficult  as i first thought it was still a very good experince . But id be lyig if  i didnt fae any porblems while doing the task. First of all  i had  a hard time understandinng what was going on and the code didnt't make  a  lot of sense and i was forced to go in blind. I did 90% of the task in under 3 hours after figuring out some bbasic stuff but i got stuck again in generating a json file. I asked a senior and he pointed out that I should make sure all my fucnntion calls have been done properly. Athough i didnt get it straight away after i reached my room i realised i hadnt put in StreamWriter. I think i mustve accidently deleted while I was running each part of the code while debugging another issue
+ps; this webiste helped me a lot "https://www.c-sharpcorner.com/article/socket-programming-in-C-Sharp/"
