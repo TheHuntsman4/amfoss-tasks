@@ -1,5 +1,6 @@
 use prettytable::Table;
-use prettytable::row;
+use prettytable::csv::Writer;
+
 
 
     fn main() {
@@ -12,30 +13,80 @@ use prettytable::row;
         .unwrap();
     
         let document = scraper::Html::parse_document(&response);
-        //variables for scraping the data
-        let title_selector = scraper::Selector::parse("span.chakra-text.css-1jj7b1a").unwrap();//position
-        let title_selector1 = scraper::Selector::parse("td.css-w6jew4").unwrap();//code of the cryto
-        let title_selector2=scraper::Selector::parse("p.chakra-text.css-dg4gux").unwrap();//price percentage
-        let title_selector3=scraper::Selector::parse("div.css-b1ilzc").unwrap();//price current
-        let title_selector4=scraper::Selector::parse("td.css-1nh9lk8").unwrap();//24h volume
-        // let title_selector4=scraper::Selector::parse("td.css-1nh9lk8").unwrap();
-    
-    
-        //variables for storing the data
-        let mut code = document.select(&title_selector).map(|x| x.inner_html());
-        let pos=document.select(&title_selector1).map( |x| x.inner_html());
-        let mut price_per=document.select(&title_selector2).map(|x| x.inner_html());
-        let price=document.select(&title_selector3).map(|x| x.inner_html());
-        let volume=document.select(&title_selector4).map(|x| x.inner_html());
         
-       for i in code{
-            for j in price{
-                table.add_row(row![{i},{j}]);
+        //variables for scraping the data
+        
+        let title_selector0=scraper::Selector::parse("div.css-ttxvk0>p").unwrap(); //name
+        let title_selector1= scraper::Selector::parse("span.chakra-text.css-1jj7b1a").unwrap();//code
+        let price = scraper::Selector::parse("div.css-b1ilzc").unwrap();//price current 
+        let title_selector3=scraper::Selector::parse("td.css-1nh9lk8").unwrap();//24h volume+market cpa
+        let title_selector4=scraper::Selector::parse("p.chakra-text.css-dg4gux").unwrap();//price percentage
+
+        //variables for storing the data
+        let name=document.select(&title_selector0).map(|x| x.inner_html()); 
+        let code=document.select(&title_selector1).map(|x| x.inner_html());
+        let prices = document.select(&price).map(|x| x.inner_html());
+        let volumemark=document.select(&title_selector3).map(|x| x.inner_html());
+        // let price_per=document.select(&title_selector3).map(|x| x.inner_html());
+
+        
+
+        //vector variables to input into csv
+
+        let mut code_csv:Vec<String>= vec![String::new();0];
+        let mut title_csv:Vec<String>= vec![String::new();0];
+        let mut cryprice: Vec<String> = vec![String::new(); 0];
+        let mut volume_csv:Vec<String>=vec![String::new();0];
+        let mut mark_cap_csv:Vec<String>=vec![String::new();0];
+
+        //getting all values into vector 
+
+        for i in name{title_csv.push(i);}
+        for i in code{code_csv.push(i);}
+        for i in prices{cryprice.push(i);}
+
+        //seperating the volume and market cap
+        let mut j=0;
+        for i in volumemark{
+            if j%2==0{
+                mark_cap_csv.push(i);
             }
-       
+            else{
+                volume_csv.push(i);
+            }
+            j=j+1   ;
         }
 
-        table.printstd();}
+        //dumping into teh csv file 
+        let mut wtr=Writer::from_path("cryptocargo.csv").unwrap();
+        wtr.write_record(&["Name","Code","Price", "24hr Hour volume", "Market Cap"]).unwrap();
+        for i in 0..50{
+   
+        wtr.write_record([&title_csv[i],&code_csv[i],&cryprice[i],&volume_csv[i],&mark_cap_csv[i]]);
+        wtr.flush();
+   }
+    }
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        //    for i in code{
+    //         for j in price{
+    //             table.add_row(row![{i},{j}]);
+    //         }
+       
+    //     }
+
+    //     table.printstd();}
        
 
 
