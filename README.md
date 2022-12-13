@@ -10,11 +10,11 @@
 [Task-06]()|Flame Game|
 [Task-07]()|Go WASM|
 [Task-08](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-08)|Internet Explorer|Completed
-[Task-09]()|Krypto Scrapper|
+[Task-09](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-09)|Krypto Scrapper|
 [Task-10]()|CS50|
 [Task-11]()|Figma Ninja|
 [Task-12]()|Bunny Heist|
 [Task-13]()|Footfall Counter|
-[Task-14](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-14)|Bnadit|Completed
+[Task-14](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-14)|Bandit|Completed
 [Task-15]()|Project Euler|
 
