@@ -1,6 +1,7 @@
 # amfoss-tasks
 **Tasks List**|**Description**|**Status**
 --------------|---------------|---------------
+[Introspection](https://github.com/TheHuntsman4/amfoss-tasks/blob/main/introspection/introspection.md)|Introspection|Completed
 [Task-00](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-00)|Installing Ubuntu|Completed
 [Task-01](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-01)|Staring amFOSS repositories|Completed
 [Task-02](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-02)|TerminalHunt|Completed
