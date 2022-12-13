@@ -1,2 +1,2 @@
-# :scroll:GO WASM:croll:
+# :scroll:GO WASM:scroll:
 One of the more harder  tasks.  I wasnt sure whther Id be able to complete it within th given time as there was really not a lot of material.But I searched on google  a bit more properly  and i ended up getting a website with a  tutorial to  make a simple calculator .  I got that up an running and I got the output on the console. The linking part was harder,but I eventually figured it out with some help from friends.
