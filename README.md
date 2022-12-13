@@ -7,7 +7,7 @@
 [Task-00](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-00)|Installing Ubuntu|Completed
 [Task-01](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-01)|Staring amFOSS repositories|Completed
 [Task-02](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-02)|TerminalHunt|Completed
-[Task-03]()|Programming|Completd one
+[Task-03](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-03)|Programming|Completd one
 [Task-04](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-04)|CineBot|Completed
 [Task-05](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-05)|Find The Bug|Completed
 [Task-06](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-06)|Flame Game|Completed
