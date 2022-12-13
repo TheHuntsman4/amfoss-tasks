@@ -19,5 +19,5 @@
 [Task-12]|Bunny Heist|
 [Task-13]|Footfall Counter|
 [Task-14](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-14)|Bandit|Completed
-[Task-15]()|Project Euler|Completed three
+[Task-15](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-15)|Project Euler|Completed three
 
