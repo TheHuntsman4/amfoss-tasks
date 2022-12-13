@@ -1,0 +1,12 @@
+Shrink  to win
+
+x=int(input())
+num,step=0,0
+while len(str(x))>1:
+    for i in str(x):
+        num+=int(i)
+    x=num
+    num=0
+    step+=1
+
+print(step)
