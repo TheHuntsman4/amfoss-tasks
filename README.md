@@ -1,5 +1,3 @@
-
-
 # amfoss-tasks
 **Tasks List**|**Description**|**Status**
 --------------|---------------|---------------
@@ -15,9 +13,9 @@
 [Task-08](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-08)|Internet Explorer|Completed
 [Task-09](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-09)|Krypto Scrapper|Completed
 [Task-10](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-10)|CS50|Completed
-Task-11|Figma Ninja|Unattempted
-Task-12|Bunny Heist|Unattempted
-Task-13|Footfall Counter|Unattempted
+[Task-11](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-11)|Figma Ninja|Unattempted
+[Task-12](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-12)|Bunny Heist|Unattempted
+[Task-13](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-13)|Footfall Counter|Unattempted
 [Task-14](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-14)|Bandit|Completed
 [Task-15](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-15)|Project Euler|Completed three
 
