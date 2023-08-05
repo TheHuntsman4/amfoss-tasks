@@ -18,7 +18,7 @@ I found some of the tasks hard, but that is what I expected, and the tasks were 
 [Task-00](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-00)|Installing Ubuntu|Completed
 [Task-01](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-01)|Staring amFOSS repositories|Completed
 [Task-02](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-02)|TerminalHunt|Completed
-[Task-03](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-03)|Programming|Completd one
+[Task-03](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-03)|Programming|Completd Partially
 [Task-04](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-04)|CineBot|Completed
 [Task-05](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-05)|Find The Bug|Completed
 [Task-06](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-06)|Flame Game|Completed
@@ -30,5 +30,5 @@ I found some of the tasks hard, but that is what I expected, and the tasks were 
 [Task-12](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-12)|Bunny Heist|Unattempted
 [Task-13](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-13)|Footfall Counter|Unattempted
 [Task-14](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-14)|Bandit|Completed
-[Task-15](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-15)|Project Euler|Completed three
+[Task-15](https://github.com/TheHuntsman4/amfoss-tasks/tree/main/task-15)|Project Euler|Completed Partially
 
